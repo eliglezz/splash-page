@@ -9,24 +9,30 @@
 </head>
 <body>
     <nav class="header">
-        <h1>
-            <ul id="menu">
-                <li>Github</li>
-                <li>Portfolio</li>
-                <li>Contact</li>
-            </ul>
-        </h1>
+        <ul id="menu">
+            <li><a>Github</a></li>
+            <li><a>Portfolio</a></li>
+            <li><a>Contact</a></li>
+        </ul>
     </nav>
+    <header>
+        <h1>Welcome!</h1>
+    </header>
     <main class="main-background">
         <h2 class="teal">Eli's Splash Page</h2>
-        <section>
-
-        </section>
-        <div>
-            <input type="text">Name</input>
-            <input type="text">Email</input>
-            <button type="button">Submit</button>
-        </div>
+        <img src="https://i.imgur.com/WQbyiOA.png" alt="rambo thumbs up" width="600" height="500">
+        <div class="container">
+            <form action="action_page.php">
+          
+              <label for="name">Name</label>
+              <input type="text" id="name" name="fname" placeholder="Your name..">
+          
+              <label for="email">Email</label>
+              <input type="text" id="email" name="Email" placeholder="Your Email..">
+              <input type="submit" value="Submit">
+          
+            </form>
+          </div>
     </main>
     <footer>
         <h3>This is my website</h3>

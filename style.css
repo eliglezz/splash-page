@@ -1,6 +1,9 @@
-body {
+*{
     background-color: slategray;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+body {
     text-align: center;
 }
 
@@ -22,4 +25,11 @@ body {
 #menu li{
     list-style-type: none;
     display: inline;
+    padding: 20px;
   }
+.container {
+  margin: auto;
+  width: 50%;
+  border: 3px solid whitesmoke;
+  padding: 10px;
+}
